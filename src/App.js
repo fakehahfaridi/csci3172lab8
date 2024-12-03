@@ -1,11 +1,9 @@
 import './App.css';
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import LoginForm from "./LoginForm";
 import Profile from "./Profile";
 import Dashboard from "./Dashboard";
-import logo from './logo.svg';
-
 
 function App() {
   return (
